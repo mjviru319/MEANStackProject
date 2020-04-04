@@ -1,0 +1,15 @@
+<h1>Inside Post Create Page</h1>
+
+<mat-card>
+  <mat-form-field>
+    <textarea matInput rows="10" [(ngModel)]="valueEntered"></textarea>
+    <button
+    mat-raised-button
+    color="primary"
+    (click)="onAddPost()">Save Post</button>
+  </mat-form-field>
+</mat-card>
+
+
+<p>{{ newPost }}</p>
+
