@@ -1,4 +1,6 @@
 main
 {
-margin-top: 1rem;
+  margin-top: 1rem;
+  width: 50%;
+  margin: auto;
 }
