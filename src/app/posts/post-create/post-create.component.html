@@ -1,5 +1,8 @@
 <mat-card>
   <mat-form-field>
+    <input matInput type="text" [(ngModel)]="titleEntered">
+  </mat-form-field>
+  <mat-form-field>
     <textarea matInput rows="10" [(ngModel)]="valueEntered"></textarea>
     <button
     mat-raised-button

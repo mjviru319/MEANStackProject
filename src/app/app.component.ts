@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Udemy-Max-Course-Project';
+  storedPosts= []
+
+  onPostAdded(post){
+    this.storedPosts.push(post);
+  }
+
 }
